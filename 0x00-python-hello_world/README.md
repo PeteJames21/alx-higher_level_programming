@@ -20,3 +20,6 @@ Perform string multiplication and slicing
 
 ## 6-concat.py
 Concatenate two strings
+
+## 7-edges.py
+More string slicing
