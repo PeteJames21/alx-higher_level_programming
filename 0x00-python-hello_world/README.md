@@ -10,4 +10,7 @@ Write a Shell script that runs Python code. The Python code will be saved in the
 Write a Python script that prints exactly `"Programming is like building a multilingual puzzle`, followed by a new line.
 
 ## 3-print_number.py
-Use f-strings for printing
+Use f-strings to print an integer
+
+## 4-print_float.py
+Use f-strings to format a float
