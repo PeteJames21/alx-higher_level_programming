@@ -23,3 +23,6 @@ Concatenate two strings
 
 ## 7-edges.py
 More string slicing
+
+## 8-concat_edges.py
+Perform string slicing and concatenation
