@@ -32,3 +32,6 @@ Print The Zen of Python
 
 ## 10-check_cycle.c
 Write a function in C that checks if a singly linked list has a cycle in it.
+
+## 100-write.py
+Write a string to stderr
