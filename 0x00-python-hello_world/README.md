@@ -35,3 +35,6 @@ Write a function in C that checks if a singly linked list has a cycle in it.
 
 ## 100-write.py
 Write a string to stderr
+
+## 101-compile
+Compile a .py files into .pyc using the `compileall` module. Use legacy (pre-PEP3147) compiled file locations where the .pyc files are stored in the current directory instead of the __pychache__ directory.
