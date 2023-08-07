@@ -14,3 +14,6 @@ Use f-strings to print an integer
 
 ## 4-print_float.py
 Use f-strings to format a float
+
+## 5-print_string.py
+Perform string multiplication and slicing
