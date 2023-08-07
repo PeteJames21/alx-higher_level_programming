@@ -19,4 +19,4 @@ Use f-strings to format a float
 Perform string multiplication and slicing
 
 ## 6-concat.py
-Format multiple strings into a single f-string
+Concatenate two strings
