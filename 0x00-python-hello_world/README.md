@@ -29,3 +29,6 @@ Perform string slicing and concatenation
 
 ## 9-easter_egg.py
 Print The Zen of Python
+
+## 10-check_cycle.c
+Write a function in C that checks if a singly linked list has a cycle in it.
