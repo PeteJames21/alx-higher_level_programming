@@ -26,3 +26,6 @@ More string slicing
 
 ## 8-concat_edges.py
 Perform string slicing and concatenation
+
+## 9-easter_egg.py
+Print The Zen of Python
