@@ -17,3 +17,6 @@ Use f-strings to format a float
 
 ## 5-print_string.py
 Perform string multiplication and slicing
+
+## 6-concat.py
+Format multiple strings into a single f-string
