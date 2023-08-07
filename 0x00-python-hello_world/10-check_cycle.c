@@ -4,30 +4,25 @@
  * check_cycle - check if a linked list has a cylce
  * @list: the head of the linked list
  * Return: 1 if the @list has a cycle, else 0
+ *
+ * Description - this function uses the Floyd’s Cycle-Finding Algorithm
  */
 int check_cycle(listint_t *list)
 {
-	int has_cycle = 0, i = 0, j = 0;
-	listint_t *current, *head, *tmp;
+	listint_t *slowp, *fastp;
 
 	if (list == NULL)
 		return (0);
 
-	current = head = tmp = list;
+	slowp = fastp = list;
 
-	while (current != NULL)
+	while (slowp && fastp && fastp->next)
 	{
-		for (j = 0; j < i; j++)
-		{
-			if (tmp == current->next)
-			{
-				return (1);  /* Cycle detected */
-			}
-			tmp = tmp->next;
-		}
-		current = current->next;
-		tmp = head;
-		i++;
+		slowp = slowp->next;
+		fastp = fastp->next->next;
+
+		if (slowp == fastp)  /* Pointer comparison */
+			return (1);
 	}
 
 	return (0);
