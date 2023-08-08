@@ -11,3 +11,6 @@ Print the entire ascii lowercase alphabet
 
 ## 3-print_alphabt.py
 Print the entire ascii lowercase alphabet excluding `q` and `e`
+
+## 4-print_hexa.py
+Print the numbers of 0-98 in hexadecimals
