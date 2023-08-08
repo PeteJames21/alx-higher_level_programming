@@ -7,4 +7,7 @@ Determine if a number is positive or negative
 Check the last digit of an integer
 
 ## 2-print_alphabet.py
-Print the entire ascii lowercase alphabets
+Print the entire ascii lowercase alphabet
+
+## 3-print_alphabt.py
+Print the entire ascii lowercase alphabet excluding `q` and `e`
