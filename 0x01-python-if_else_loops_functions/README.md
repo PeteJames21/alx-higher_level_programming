@@ -43,6 +43,10 @@ Compute powers of numbers
 ## 12-fizzbuzz.py
 Implement the fizzbuzz algorithm
 
+## 13-insert_number.c
+Write a function in C that inserts a number into a sorted singly linked list.
+Return: the address of the new node, or NULL if it failed.
+
 ## 100-print_tebahpla.py
 Prints the ASCII alphabet, in reverse order, alternating lowercase and uppercase (z in lowercase and Y in uppercase), not followed by a new line.
 
