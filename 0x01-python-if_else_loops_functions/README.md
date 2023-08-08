@@ -14,3 +14,6 @@ Print the entire ascii lowercase alphabet excluding `q` and `e`
 
 ## 4-print_hexa.py
 Print the numbers of 0-98 in hexadecimals
+
+## 5-print_comb2.py
+Print the numbers 0-99 formatted. zero-pad all numbers < 10.
