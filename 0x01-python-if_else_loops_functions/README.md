@@ -30,3 +30,6 @@ Check if a character is lowercase usnig the `ord()` builtin.
 
 ## 8-uppercase.py
 Convert and print the uppercase conversion of a string
+
+## 9-print_last_digit.py
+Print and return the last digit of a number
