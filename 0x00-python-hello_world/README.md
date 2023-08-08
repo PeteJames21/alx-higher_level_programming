@@ -38,3 +38,12 @@ Write a string to stderr
 
 ## 101-compile
 Compile a .py files into .pyc using the `compileall` module. Use legacy (pre-PEP3147) compiled file locations where the .pyc files are stored in the current directory instead of the __pychache__ directory.
+
+## 102-magic_calculation.py
+Write the Python function def magic_calculation(a, b): that does exactly the same as the following Python bytecode:
+  3           0 LOAD_CONST               1 (98)
+              3 LOAD_FAST                0 (a)
+              6 LOAD_FAST                1 (b)
+              9 BINARY_POWER
+             10 BINARY_ADD
+             11 RETURN_VALUE
