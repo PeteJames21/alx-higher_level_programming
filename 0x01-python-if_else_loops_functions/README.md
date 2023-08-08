@@ -42,3 +42,6 @@ Compute powers of numbers
 
 ## 12-fizzbuzz.py
 Implement the fizzbuzz algorithm
+
+## 100-print_tebahpla.py
+Prints the ASCII alphabet, in reverse order, alternating lowercase and uppercase (z in lowercase and Y in uppercase), not followed by a new line.
