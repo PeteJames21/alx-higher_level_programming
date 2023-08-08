@@ -6,4 +6,4 @@ def uppercase(s):
         if i >= ord("a") and i <= ord("z"):
             i -= 32  # Convert to uppercase
         print("{}".format(chr(i)), end="")
-    print("{}".format("\n"))
+    print()
