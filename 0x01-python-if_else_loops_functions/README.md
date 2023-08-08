@@ -33,3 +33,6 @@ Convert and print the uppercase conversion of a string
 
 ## 9-print_last_digit.py
 Print and return the last digit of a number
+
+## 10-add.py
+Write a function that adds two numbers and returns the sum
