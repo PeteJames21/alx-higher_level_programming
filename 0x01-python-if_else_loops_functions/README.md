@@ -36,3 +36,6 @@ Print and return the last digit of a number
 
 ## 10-add.py
 Write a function that adds two numbers and returns the sum
+
+## 11-pow.py
+Compute powers of numbers
