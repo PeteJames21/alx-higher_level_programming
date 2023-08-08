@@ -27,3 +27,6 @@ Print combinations of digits
 
 ## 7-islower.py
 Check if a character is lowercase usnig the `ord()` builtin.
+
+## 8-uppercase.py
+Convert and print the uppercase conversion of a string
