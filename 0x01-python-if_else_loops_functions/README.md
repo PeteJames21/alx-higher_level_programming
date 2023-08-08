@@ -24,3 +24,6 @@ Print combinations of digits
 - 01 and 10 are considered the same combination of the two digits 0 and 1
 - Print only the smallest combination of two digits
 - Numbers should be printed in ascending order, with two digits
+
+## 7-islower.py
+Check if a character is lowercase usnig the `ord()` builtin.
