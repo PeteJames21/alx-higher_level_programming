@@ -39,3 +39,6 @@ Write a function that adds two numbers and returns the sum
 
 ## 11-pow.py
 Compute powers of numbers
+
+## 12-fizzbuzz.py
+Implement the fizzbuzz algorithm
