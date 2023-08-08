@@ -5,3 +5,6 @@ Determine if a number is positive or negative
 
 ## 1-last_digit.py
 Check the last digit of an integer
+
+## 2-print_alphabet.py
+Print the entire ascii lowercase alphabets
