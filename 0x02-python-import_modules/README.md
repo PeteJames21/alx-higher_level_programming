@@ -15,3 +15,6 @@ Print names defined in a compiled module (.pyc)
 
 ## 5-variable_load.py
 Import a variable from a module
+
+## 101-easy_print.py
+Import a module that has side effects
