@@ -3,3 +3,6 @@ Write a program that imports the function `def add(a, b):` from the file `add_0.
 
 ## 1-calculation.py
 Import multiple functions from a module
+
+## 2-args.py
+Write a program that prints the number of and the list of its arguments
