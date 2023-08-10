@@ -9,3 +9,6 @@ Write a program that prints the number of and the list of its arguments
 
 ## 3-infinite_add.py
 Write a program that prints the result of the addition of all arguments
+
+## 4-hidden_discovery.py
+Print names defined in a compiled module (.pyc)
