@@ -12,3 +12,6 @@ Write a program that prints the result of the addition of all arguments
 
 ## 4-hidden_discovery.py
 Print names defined in a compiled module (.pyc)
+
+## 5-variable_load.py
+Import a variable from a module
