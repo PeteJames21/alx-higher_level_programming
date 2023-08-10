@@ -18,3 +18,6 @@ Import a variable from a module
 
 ## 101-easy_print.py
 Print a string without using `print`, `eval`, `open`, or`import sys`
+
+## 103-fast_alphabet.py
+Print the entire ASCII uppercase alphabet
