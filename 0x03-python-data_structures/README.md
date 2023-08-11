@@ -15,3 +15,6 @@ Write a function that replaces an element in a list at a specific position witho
 
 ## 5-no_c.py
 Write a function that removes all characters c and C from a string without using `str.replace()`.
+
+## 6-print_matrix_integer.py
+Write a function that prints a matrix of integers.
