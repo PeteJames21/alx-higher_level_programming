@@ -16,6 +16,9 @@ Print names defined in a compiled module (.pyc)
 ## 5-variable_load.py
 Import a variable from a module
 
+## 100-my_calculator.py
+Create a simple calculator that gets its input from the commandline
+
 ## 101-easy_print.py
 Print a string without using `print`, `eval`, `open`, or`import sys`
 
