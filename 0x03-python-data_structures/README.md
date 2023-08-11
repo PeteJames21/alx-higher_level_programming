@@ -24,3 +24,6 @@ Write a function that adds 2 tuples by summing the elements at the same index.
 
 ## 8-multiple_returns.py
 Write a function that returns a tuple with the length of a string and its first character.
+
+## 9-max_integer.py
+Write a function that finds the biggest integer of a list. Return `None` if the list is empty.
