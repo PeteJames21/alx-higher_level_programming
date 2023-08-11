@@ -27,3 +27,6 @@ Write a function that returns a tuple with the length of a string and its first 
 
 ## 9-max_integer.py
 Write a function that finds the biggest integer of a list. Return `None` if the list is empty.
+
+## 10-divisible_by_2.py
+Write a function that finds all multiples of 2 in a list.
