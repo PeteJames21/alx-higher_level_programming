@@ -7,4 +7,3 @@ def no_c(my_string):
             s += char
 
     return s
-#!/usr/bin/python3
