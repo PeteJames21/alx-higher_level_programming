@@ -12,3 +12,6 @@ Print a list of integers in reverse
 
 ## 4-new_in_list.py
 Write a function that replaces an element in a list at a specific position without modifying the original list (like in C).
+
+## 5-no_c.py
+Write a function that removes all characters c and C from a string without using `str.replace()`.
