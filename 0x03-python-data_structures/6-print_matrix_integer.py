@@ -4,7 +4,7 @@ def print_matrix_integer(matrix=[[]]):
     for row in matrix:
         last = len(row) - 1  # The index of the last element in the row.
         for i, element in enumerate(row, start=0):
-            print("{}".format(element), end="")
+            print("{:d}".format(element), end="")
             if i != last:
                 print(" ", end="")
             else:
