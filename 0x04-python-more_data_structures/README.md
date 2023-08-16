@@ -35,3 +35,6 @@ Write a function that returns a key with the biggest integer value.
 
 ## 11-multiply_list_map.py
 Write a function that returns a list with all values multiplied by a number using `map()`.
+
+## 102-complex_delete.py
+Write a function that deletes keys with a specific value in a dictionary.
