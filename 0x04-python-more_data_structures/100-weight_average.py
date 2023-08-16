@@ -2,6 +2,9 @@
 
 def weight_average(my_list=[]):
     """Return weighted average integers tuple (<score>, <weight>) in a list."""
+    if not my_list:
+        return 0
+
     total_weight = 0
     weighted_sum = 0
     for score, weight in my_list:
