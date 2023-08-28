@@ -19,3 +19,6 @@ Write a function that divides the elements in two lists and returns a list of th
 
 ## 5-raise_exception.py
 Write a function that raises a TypeError exception.
+
+## 6-raise_exception_msg.py
+Write a function that raises a NameError exception with a message.
