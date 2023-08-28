@@ -16,3 +16,6 @@ Write a function that divides 2 integers and prints the result.
 Write a function that divides the elements in two lists and returns a list of the results.
 - The result is a list with the result of dividing the elements at equal indices.
 - Zero will be set if a division fails due to zero division, incompatible types, or incompatible lengths of the input lists.
+
+## 5-raise_exception.py
+Write a function that raises a TypeError exception.
