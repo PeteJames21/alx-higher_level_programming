@@ -25,3 +25,6 @@ Write a function that raises a NameError exception with a message.
 
 ## 100-safe_print_integer_err.py
 Write a function that prints an integer.
+
+## 101-safe_function.py
+Write a function that executes an arbitrary function and catches any resulting exceptions. 
