@@ -22,3 +22,6 @@ Write a function that raises a TypeError exception.
 
 ## 6-raise_exception_msg.py
 Write a function that raises a NameError exception with a message.
+
+## 100-safe_print_integer_err.py
+Write a function that prints an integer.
