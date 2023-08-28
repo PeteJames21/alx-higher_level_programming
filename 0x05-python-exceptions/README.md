@@ -8,3 +8,6 @@ Write a function that prints an integer with "{:d}".format().
 
 ## 2-safe_print_list_integers.py
 Write a function that prints the first `x` elements of a list and only integers.
+
+## 3-safe_print_division.py
+Write a function that divides 2 integers and prints the result.
