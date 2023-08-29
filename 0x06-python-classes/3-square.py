@@ -1,4 +1,4 @@
-#!/usr/bin/python3
+#!/usr/bin/python3#!/usr/bin/python3
 """Defines a Square type."""
 
 
@@ -17,3 +17,7 @@ class Square:
             raise ValueError("size must be >= 0")
 
         self.__size = size
+
+    def area(self):
+        """Return the squared area of the Square object."""
+        return self.__size ** 2
