@@ -58,3 +58,5 @@ Write a class Square that defines a square by:
   - if size is equal to 0, print an empty line
   - position should be use by using space - Don’t fill lines by spaces when position[1] > 0
 
+## 101-square.py
+Augment the `Square` class in `6-square.py` with a __str__ method that returns the string printed using `my_print()`
