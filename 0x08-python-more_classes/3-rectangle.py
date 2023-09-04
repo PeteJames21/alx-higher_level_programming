@@ -52,4 +52,7 @@ class Rectangle:
     def __str__(self):
         if self.width == 0 or self.height == 0:
             return ""
-        return ("#" * self.width + "\n") * self.height
+        s = ("#" * self.width + "\n") * self.height
+        # Remove trailing newline
+        s = s.removesuffix("\n")
+        return s
