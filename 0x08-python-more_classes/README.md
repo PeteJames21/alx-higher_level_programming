@@ -20,3 +20,6 @@ Augment 4-rectangle.py to include a __del__ method
 
 ## 6-rectangle.py
 Augment 5-rectangle.py with a class attribute for tracking the number of Rectangle instances
+
+## 7-rectangle.py
+Augment 5-rectangle.py with the ability to change the character used in the string representation of Ractangle instances. This is achieved by introducing a public class attribute called `print_symbol`, which can be of any type.
