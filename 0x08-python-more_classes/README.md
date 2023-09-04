@@ -26,3 +26,6 @@ Augment 6-rectangle.py with the ability to change the character used in the stri
 
 ## 8-rectangle.py
 Augment 7-rectangle.py with a static method that compares two Rectangle instances and returns the one with the larger area.
+
+## 9-rectangle.py
+Augment 8-rectangle.py with a class method for creating Rectangles that are squares.
