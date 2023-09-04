@@ -17,3 +17,6 @@ Augment 3-rectangle.py to include a __repr__ method
 
 ## 5-rectangle.py
 Augment 4-rectangle.py to include a __del__ method
+
+## 6-rectangle.py
+Augment 5-rectangle.py with a class attribute for tracking the number of Rectangle instances
