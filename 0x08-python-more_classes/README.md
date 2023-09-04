@@ -8,3 +8,6 @@ Define a `Rectangle` class with a `width` and `height` atrribute, both accessibl
 
 ## 2-rectangle.py
 Augment 1-rectangle.py to include methods for calculating the area and perimeter of the rectangle.
+
+## 3-rectangle.py
+Augment 1-rectangle.py to include a __str__ method
