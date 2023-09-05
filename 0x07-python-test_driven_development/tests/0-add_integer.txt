@@ -1,0 +1,45 @@
+--------------------------
+Tests for add_function()
+--------------------------
+Import the function
+    >>> func = __import__("0-add_integer").add_integer
+
+Test arg1 with integers
+    >>> func(2, 4)
+    6
+
+func raises TypeError if args are not integers
+    >>> func("3", 4)
+    Traceback (most recent call last):
+    ...
+    TypeError: a must be an integer
+
+    >>> func(3, "4")
+    Traceback (most recent call last):
+    ...
+    TypeError: b must be an integer
+
+    >>> func([3.0], [4.0])
+    Traceback (most recent call last):
+    ...
+    TypeError: a must be an integer
+
+a and b are first cast to integers if they are floats
+    >>> func(3.5, 4.5)
+    7
+    >>> func(3.5, 1)
+    4
+    >>> func(3, 2.5)
+    5
+
+addition works normally if a and b are both positive or negative integers
+    >>> func(2, 3)
+    5
+    >>> func(10, -20)
+    -10
+    >>> func(-20, 10)
+    -10
+    >>> func(-1, -3)
+    -4
+    >>> func(0, 0)
+    0
