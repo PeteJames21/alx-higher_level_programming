@@ -19,10 +19,12 @@ class TestMaxInteger(unittest.TestCase):
         result2 = max_integer([1, 3, 2, 4, 6, 1])
         result3 = max_integer([-12, -3, -9])
         result4 = max_integer([3, 900, -199, 45])
+        result5 = max_integer([3999, 900, -199, 45])
         self.assertEqual(result1, 3)
         self.assertEqual(result2, 6)
         self.assertEqual(result3, -3)
         self.assertEqual(result4, 900)
+        self.assertEqual(result5, 3999)
 
     def test_incorrect_arg_type(self):
         with self.assertRaises(TypeError):
