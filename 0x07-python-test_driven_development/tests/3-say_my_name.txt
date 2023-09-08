@@ -1,0 +1,31 @@
+-----------------------
+tests for say_my_name()
+-----------------------
+Import the function
+    >>> func = __import__("3-say_my_name").say_my_name
+
+Both first and second names provided
+    >>> func("John", "Doe")
+    My name is John Doe
+
+Only first name provided
+    >>> func("John")
+    My name is John
+
+First name not a string
+    >>> func(123, "John")
+    Traceback (most recent call last):
+    ...
+    TypeError: first_name must be a string
+
+Second name not a string
+    >>> func("John", 123)
+    Traceback (most recent call last):
+    ...
+    TypeError: second_name must be a string
+
+Both names not strings
+    >>> func(123, 3.4)
+    Traceback (most recent call last):
+    ...
+    TypeError: first_name must be a string
