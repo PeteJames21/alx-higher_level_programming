@@ -1,0 +1,56 @@
+--------------------------
+Tests for the MyList class
+--------------------------
+Check if the parent module has a docstring.
+    >>> module = __import__("1-my_list")
+    >>> assert len(module.__doc__) > 1
+
+Check if the class MyList is defined in the module and it is a subclass of list
+    >>> MyList = module.__dict__.get("MyList", None)
+    >>> assert type(MyList) is not None  # Check if MyList is defined
+    >>> assert type(MyList) is type  # Check if MyList is a class
+    >>> assert issubclass(MyList, list)
+
+Check if the class has a docstring
+    >>> assert len(MyList.__doc__) > 0
+
+Check if the `print_sorted()` method is defined and it is a function
+    >>> print_sorted = MyList.__dict__.get("print_sorted", None)
+    >>> assert print_sorted is not None  # Check if name is defined in the class
+    >>> assert type(print_sorted).__name__ == "function"  # Name is a function
+
+Check if the method has a docstring
+    >>> assert len(print_sorted.__doc__) > 0
+
+The method should not take any arguments
+    >>> lst = MyList([4])
+    >>> lst.print_sorted(1)
+    Traceback (most recent call last):
+    ...
+    TypeError: MyList.print_sorted() takes 1 positional argument but 2 were given
+
+Check if the method performs as expected with various inputs
+>>> MyList([]).print_sorted()
+[]
+>>> MyList([1]).print_sorted()
+[1]
+>>> MyList([2, 1]).print_sorted()
+[1, 2]
+>>> MyList([1, 2]).print_sorted()
+[1, 2]
+>>> MyList([3, 2, 1]).print_sorted()
+[1, 2, 3]
+>>> MyList([9, -1, 5]).print_sorted()
+[-1, 5, 9]
+>>> MyList([-1, -2, -3]).print_sorted()
+[-3, -2, -1]
+>>> MyList([-3, -2, -1]).print_sorted()
+[-3, -2, -1]
+>>> MyList([1, 4, 6, 8, 3]).print_sorted()
+[1, 3, 4, 6, 8]
+>>> MyList([0, 0, 0]).print_sorted()
+[0, 0, 0]
+>>> MyList([1, 1, 1]).print_sorted()
+[1, 1, 1]
+>>> MyList([2, 2, 1, 3, 1, 3]).print_sorted()
+[1, 1, 2, 2, 3, 3]
