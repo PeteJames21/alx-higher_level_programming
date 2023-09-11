@@ -41,3 +41,9 @@ Write a class `Rectangle` that inherits from `BaseGeometry` (`7-base_geometry.py
 Augment `Rectangle` from `8-rectangle.py` with an `area()`, `str` and `print()` method:
 - implement the `area()` method from the base class
 - `print()` should print, and `str()` should return, the following rectangle description: `"[Rectangle] <width>/<height>"`
+
+## 10-square.py
+Write a class `Square` that inherits from `Rectangle` (`9-rectangle.py`):
+- Instantiation with `size`: `def __init__(self, size)`
+  - `size` must be private. No getter or setter
+  - `size` must be a positive integer, validated by `integer_validator`
