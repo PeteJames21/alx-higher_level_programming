@@ -6,7 +6,8 @@ Check if the parent module has a docstring.
 	>>> assert len(module.__doc__) > 1
 
 Check if the class MyList is defined in the module and it is a subclass of list
-	>>> MyList = __import__("1-my_list").MyList
+	>>> MyList = module.__dict__.get("MyList", None)
+	>>> assert type(MyList) is not None  # Check if MyList is defined
 	>>> assert type(MyList) is type  # Check if MyList is a class
 	>>> assert issubclass(MyList, list)
 
