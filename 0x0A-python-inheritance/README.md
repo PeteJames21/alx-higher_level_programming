@@ -54,3 +54,7 @@ Modify the __str__ method of the `Square` class from `10-square.py` to return th
 ## 100-my_int.py
 Write a class MyInt that inherits from `int`:
 - `MyInt` is a rebel. `MyInt` has `==` and `!=` operators inverted
+
+## 101-add_attribute.py
+Write a function that adds a new attribute to an object if it’s possible.
+- Raise a `TypeError` exception, with the message `"can't add new attribute"` if the object can’t have the new attribute
