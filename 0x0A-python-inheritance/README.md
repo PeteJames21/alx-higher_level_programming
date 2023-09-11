@@ -47,3 +47,6 @@ Write a class `Square` that inherits from `Rectangle` (`9-rectangle.py`):
 - Instantiation with `size`: `def __init__(self, size)`
   - `size` must be private. No getter or setter
   - `size` must be a positive integer, validated by `integer_validator`
+
+## 11-square.py
+Modify the __str__ method of the `Square` class from `10-square.py` to return the description: `"[Square] <width>/<height>"`
