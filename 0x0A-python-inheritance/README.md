@@ -50,3 +50,7 @@ Write a class `Square` that inherits from `Rectangle` (`9-rectangle.py`):
 
 ## 11-square.py
 Modify the __str__ method of the `Square` class from `10-square.py` to return the description: `"[Square] <width>/<height>"`
+
+## 100-my_int.py
+Write a class MyInt that inherits from `int`:
+- `MyInt` is a rebel. `MyInt` has `==` and `!=` operators inverted
