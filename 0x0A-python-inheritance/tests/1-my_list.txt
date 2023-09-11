@@ -14,6 +14,9 @@ Check if the class MyList is defined in the module and it is a subclass of list
 Check if the class has a docstring
     >>> assert len(MyList.__doc__) > 0
 
+Import MyList
+    >>> MyList = __import__("1-my_list").MyList
+
 Check if the `print_sorted()` method is defined and it is a function
     >>> print_sorted = MyList.__dict__.get("print_sorted", None)
     >>> assert print_sorted is not None  # Check if name is defined in the class
