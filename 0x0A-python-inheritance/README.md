@@ -16,3 +16,6 @@ Write a function that returns `True` if the object is an instance of, or if the 
 
 ## 4-inherits_from.py
 Write a function that returns `True` if the object is an instance of a class that inherited (directly or indirectly) from the specified class ; otherwise `False`.
+
+## 5-base_geometry.py
+Write an empty class `BaseGeometry`.
