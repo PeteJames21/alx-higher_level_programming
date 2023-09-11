@@ -1,14 +1,14 @@
 --------------------------
 Tests for the MyList class
 --------------------------
-Check if the parent module has a docstring.
-    >>> module = __import__("1-my_list")
-    >>> assert len(module.__doc__) > 1
-
 Check if the class MyList is defined in the module and is a subclass of list
     >>> MyList = __import__("1-my_list").MyList
     >>> assert type(MyList) is type  # Check if MyList is a class
     >>> assert issubclass(MyList, list)
+
+Check if the parent module has a docstring.
+    >>> module = __import__("1-my_list")
+    >>> assert len(module.__doc__) > 1
 
 Check if the class has a docstring
     >>> assert len(MyList.__doc__) > 0
