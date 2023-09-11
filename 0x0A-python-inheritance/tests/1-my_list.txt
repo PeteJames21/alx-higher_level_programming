@@ -1,87 +1,58 @@
-The ``1-my_list`` module
-======================
+--------------------------
+Tests for the MyList class
+--------------------------
+Check if the parent module has a docstring.
+    >>> module = __import__("1-my_list")
+    >>> assert len(module.__doc__) > 1
 
-Using ``MyList``
--------------------
+Check if the class MyList is defined in the module and it is a subclass of list
+    >>> MyList = module.__dict__.get("MyList", None)
+    >>> assert type(MyList) is not None  # Check if MyList is defined
+    >>> assert type(MyList) is type  # Check if MyList is a class
+    >>> assert issubclass(MyList, list)
 
-Importing the function from the module:
-    >>> MyList = __import__("1-my_list").MyList
+Check if the class has a docstring
+    >>> assert len(MyList.__doc__) > 0
 
-Checking for module docstring:
-    >>> m = __import__("1-my_list").__doc__
-    >>> len(m) > 1
-    True
+Check if the `print_sorted()` method is defined and it is a function
+    >>> print_sorted = MyList.__dict__.get("print_sorted", None)
+    >>> assert print_sorted is not None  # Check if name is defined in the class
+    >>> assert type(print_sorted).__name__ == "function"  # Name is a function
 
-Checking for class docstring:
-    >>> c = __import__("1-my_list").MyList.__doc__
-    >>> len(c) > 1
-    True
+Check if the method has a docstring
+    >>> assert len(print_sorted.__doc__) > 0
 
-Checking for method docstring:
-    >>> mod = __import__("1-my_list").MyList.print_sorted.__doc__
-    >>> len(mod) > 1
-    True
-
-Checking that MyList inherits from list:
-    >>> issubclass(MyList, list)
-    True
-
-Checking for empty list:
-    >>> l = MyList()
-    >>> l.print_sorted()
-    []
-
-Checking that appendng works:
-    >>> l.append(1)
-    >>> l.append(2)
-    >>> l.append(3)
-    >>> l.append(4)
-    >>> print(l)
-    [1, 2, 3, 4]
-
-Checking for list already in correct order:
-    >>> l.print_sorted()
-    [1, 2, 3, 4]
-
-Checking for reversed order list:
-    >>> l = MyList()
-    >>> l.append(4)
-    >>> l.append(3)
-    >>> l.append(2)
-    >>> l.append(1)
-    >>> print(l)
-    [4, 3, 2, 1]
-    >>> l.print_sorted()
-    [1, 2, 3, 4]
-    >>> print(l)
-    [4, 3, 2, 1]
-
-Checking for one negative number:
-    >>> l.append(-1)
-    >>> l.append(5)
-    >>> print(l)
-    [4, 3, 2, 1, -1, 5]
-    >>> l.print_sorted()
-    [-1, 1, 2, 3, 4, 5]
-    >>> print(l)
-    [4, 3, 2, 1, -1, 5]
-
-Checking for all negative numbers:
-    >>> l = MyList()
-    >>> l.append(-10)
-    >>> l.append(-1)
-    >>> l.append(-7)
-    >>> l.append(-2)
-    >>> l.append(-8)
-    >>> print(l)
-    [-10, -1, -7, -2, -8]
-    >>> l.print_sorted()
-    [-10, -8, -7, -2, -1]
-    >>> print(l)
-    [-10, -1, -7, -2, -8]
-
-Checking for too many arguments:
-    >>> l.print_sorted(1)
+The method should not take any arguments
+    >>> lst = MyList([4])
+    >>> lst.print_sorted(1)
     Traceback (most recent call last):
     ...
     TypeError: MyList.print_sorted() takes 1 positional argument but 2 were given
+
+Check if the method performs as expected with various inputs
+>>> MyList([]).print_sorted()
+[]
+>>> MyList([1]).print_sorted()
+[1]
+>>> MyList([-1]).print_sorted()
+[-1]
+>>> MyList([2, 1]).print_sorted()
+[1, 2]
+>>> MyList([1, 2]).print_sorted()
+[1, 2]
+>>> MyList([3, 2, 1]).print_sorted()
+[1, 2, 3]
+>>> MyList([9, -1, 5]).print_sorted()
+[-1, 5, 9]
+>>> MyList([-1, -2, -3]).print_sorted()
+[-3, -2, -1]
+>>> MyList([-3, -2, -1]).print_sorted()
+[-3, -2, -1]
+>>> MyList([1, 4, 6, 8, 3]).print_sorted()
+[1, 3, 4, 6, 8]
+>>> MyList([0, 0, 0]).print_sorted()
+[0, 0, 0]
+>>> MyList([1, 1, 1]).print_sorted()
+[1, 1, 1]
+>>> MyList([2, 2, 1, 3, 1, 3]).print_sorted()
+[1, 1, 2, 2, 3, 3]
