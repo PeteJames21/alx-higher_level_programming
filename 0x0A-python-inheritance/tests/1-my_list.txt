@@ -34,6 +34,8 @@ Check if the method performs as expected with various inputs
 []
 >>> MyList([1]).print_sorted()
 [1]
+>>> MyList([-1]).print_sorted()
+[-1]
 >>> MyList([2, 1]).print_sorted()
 [1, 2]
 >>> MyList([1, 2]).print_sorted()
