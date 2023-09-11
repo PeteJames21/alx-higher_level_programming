@@ -19,3 +19,6 @@ Write a function that returns `True` if the object is an instance of a class tha
 
 ## 5-base_geometry.py
 Write an empty class `BaseGeometry`.
+
+## 6-base_geometry.py
+Augment the `BaseGeometry` from `5-base_geometry.py` with a public instance method `area()` that raises an `Exception` with the message "area() is not implemented"
