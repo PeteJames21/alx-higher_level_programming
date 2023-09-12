@@ -4,20 +4,20 @@ Define a function for creating Pascal's triangle.
 """
 
 
-def factorial(n):
-    """Return the factorial of n."""
-    if n < 0:
-        raise ValueError("n must be >= 0")
-
-    if (n == 0 or n == 1):
-        return 1
-
-    else:
-        return (n * factorial(n - 1))
-
-
 def pascal_triangle(n):
     """Generate a list of lists representing pascal's triangle of size n."""
+
+    def factorial(n):
+        """Return the factorial of n."""
+        if n < 0:
+            raise ValueError("n must be >= 0")
+
+        if (n == 0 or n == 1):
+            return 1
+
+        else:
+            return (n * factorial(n - 1))
+
     triangle = []
     if n <= 0:
         return triangle
