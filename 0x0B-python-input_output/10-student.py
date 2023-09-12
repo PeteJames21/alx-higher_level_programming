@@ -6,6 +6,7 @@ Define a self-serializable class.
 
 class Student:
     """A self-serializable class."""
+
     def __init__(self, first_name, last_name, age):
         """Initialize an instance of this class."""
         self.first_name = first_name
