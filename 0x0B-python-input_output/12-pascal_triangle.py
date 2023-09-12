@@ -6,28 +6,22 @@ Define a function for creating Pascal's triangle.
 
 def pascal_triangle(n):
     """Generate a list of lists representing pascal's triangle of size n."""
-
-    def factorial(n):
-        """Return the factorial of n."""
-        if n < 0:
-            raise ValueError("n must be >= 0")
-
-        if (n == 0 or n == 1):
-            return 1
-
-        else:
-            return (n * factorial(n - 1))
+    if n <= 0:
+        return []
 
     triangle = []
-    if n <= 0:
-        return triangle
 
-    for i in range(0, n):
+    for i in range(n):
         row = []
-        for j in range(0, i + 1):
-            term = factorial(i) / (factorial(j) * factorial(i - j))
-            row.append(int(term))  # Convert float to int
-
+        if i == 0:
+            row = [1]
+        else:
+            prev_row = triangle[i - 1]
+            for j in range(i + 1):
+                if j == 0 or j == i:
+                    row.append(1)
+                else:
+                    row.append(prev_row[j - 1] + prev_row[j])
         triangle.append(row)
 
     return triangle
