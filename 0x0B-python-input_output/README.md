@@ -38,3 +38,6 @@ Extend 10-student.py by adding a method for setting attribute values of an exter
 
 ## 12-pascal_triangle.py
 Create a function that returns a list of lists of integers representing the Pascal’s triangle of size n
+
+## 100-append_after.py
+Write a function that inserts a line of text to a file, after each line containing a specific string.
