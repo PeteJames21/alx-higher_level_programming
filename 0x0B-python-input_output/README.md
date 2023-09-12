@@ -23,3 +23,6 @@ Write a function that creates an Object from a “JSON file”.
 
 ## 7-add_item.py
 Write a script that adds all arguments to a Python list, and then save them to a file.
+
+## 8-class_to_json.py
+Write a function that returns the dictionary description with simple data structure (list, dictionary, string, integer and boolean) for JSON serialization of an object.
