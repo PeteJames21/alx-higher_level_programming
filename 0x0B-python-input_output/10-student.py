@@ -18,7 +18,8 @@ class Student:
 
         :param attrs: list of attrs to serialize. Serialize all if attrs=None
         """
-        if attrs:
+        # attrs must be a list of strings, else all attributes are serialized.
+        if attrs and all(type(key) is str for key in attrs):
             d = self.__dict__.copy()
             d_keys = list(d.keys())
             for key in d_keys:
