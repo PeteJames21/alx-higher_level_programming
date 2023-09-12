@@ -11,3 +11,6 @@ Write a function that appends a string at the end of a text file (UTF8) and retu
 
 ## 3-to_json_string.py
 Write a function that returns the JSON representation of an object.
+
+## 4-from_json_string.py
+Write a function that deserializes a JSON string.
