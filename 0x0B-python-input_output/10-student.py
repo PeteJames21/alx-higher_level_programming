@@ -19,13 +19,8 @@ class Student:
         :param attrs: list of attrs to serialize. Serialize all if attrs=None
         """
         # attrs must be a list of strings, else all attributes are serialized.
-        if attrs and all(type(key) is str for key in attrs):
-            d = self.__dict__.copy()
-            d_keys = list(d.keys())
-            for key in d_keys:
-                if key not in attrs:
-                    d.pop(key, None)
-
-            return d
+        if attrs and type(attrs) is list and \
+                all(type(key) is str for key in attrs):
+            return {k: getattr(self, k) for k in attrs if hasattr(self, k)}
         else:
             return self.__dict__
