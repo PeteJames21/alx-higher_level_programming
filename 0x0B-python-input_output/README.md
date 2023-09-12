@@ -29,3 +29,6 @@ Write a function that returns the dictionary description with simple data struct
 
 ## 9-student.py
 Write a self-serializable class `Student`.
+
+## 10-student.py
+Extend 9-student.py by providing the option of specifying which attributes to serialize when calling `to_json()`
