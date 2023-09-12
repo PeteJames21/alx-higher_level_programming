@@ -35,3 +35,6 @@ Extend 9-student.py by providing the option of specifying which attributes to se
 
 ## 11-student.py
 Extend 10-student.py by adding a method for setting attribute values of an external dict.
+
+## 12-pascal_triangle.py
+Create a function that returns a list of lists of integers representing the Pascal’s triangle of size n
