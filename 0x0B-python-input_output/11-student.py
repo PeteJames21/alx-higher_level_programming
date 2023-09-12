@@ -25,3 +25,9 @@ class Student:
                 all(type(ele) is str for ele in attrs)):
             return {k: getattr(self, k) for k in attrs if hasattr(self, k)}
         return self.__dict__
+
+    def reload_from_json(self, json):
+        """Use a dict to set values of attributes of Student objects."""
+        for key in json:
+            if hasattr(self, key):
+                setattr(self, key, json[key])
