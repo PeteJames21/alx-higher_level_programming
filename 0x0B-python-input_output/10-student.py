@@ -17,6 +17,7 @@ class Student:
         Serialize attributes of this class into a dict.
 
         :param attrs: list of attrs to serialize. Serialize all if attrs=None
+        :return: a dict of attributes of this class
         """
         # attrs must be a list of strings, else all attributes are serialized.
         if attrs and type(attrs) is list and \
