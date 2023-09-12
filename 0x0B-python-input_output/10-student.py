@@ -21,8 +21,7 @@ class Student:
         :return: a dict of attributes of this class
         """
         # attrs must be a list of strings, else all attributes are serialized.
-        if attrs and type(attrs) is list and \
-                all(type(key) is str for key in attrs):
+        if (type(attrs) == list and
+                all(type(ele) == str for ele in attrs)):
             return {k: getattr(self, k) for k in attrs if hasattr(self, k)}
-        else:
-            return self.__dict__
+        return self.__dict__
