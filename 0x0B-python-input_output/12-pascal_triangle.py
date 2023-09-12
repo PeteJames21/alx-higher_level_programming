@@ -19,6 +19,9 @@ def factorial(n):
 def pascal_triangle(n):
     """Generate a list of lists representing pascal's triangle of size n."""
     triangle = []
+    if n <= 0:
+        return triangle
+
     for i in range(0, n):
         row = []
         for j in range(0, i + 1):
