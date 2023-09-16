@@ -4,6 +4,7 @@ Defines a base class for all classes in this project.
 """
 
 import json
+import os
 
 
 class Base:
@@ -60,3 +61,19 @@ class Base:
                 obj = cls(1)  # Create a Square
             obj.update(**dictionary)
             return obj
+
+    @classmethod
+    def load_from_file(cls):
+        """Deserialize instances of this class from a JSON file."""
+        filename = f"{cls.__name__}.json"
+        if not os.path.exists(filename):
+            return []
+
+        list_objects = []
+        with open(filename, "r", encoding="utf-8") as f:
+            list_dicts = cls.from_json_string(f.read())
+
+        for d in list_dicts:
+            list_objects.append(cls.create(**d))
+
+        return list_objects
