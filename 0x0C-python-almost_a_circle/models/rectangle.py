@@ -111,3 +111,10 @@ class Rectangle(Base):
             for attr, value in kwargs.items():
                 if attr in attrs:
                     exec(f"self.{attr} = {value}", namespace, {})
+
+    def to_dictionary(self):
+        """Return the dictionary representation of self."""
+        return {
+            "id": self.id, "width": self.width, "height": self.height,
+            "x": self.x, "y": self.y
+        }
