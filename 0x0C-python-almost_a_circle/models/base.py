@@ -3,6 +3,8 @@
 Defines a base class for all classes in this project.
 """
 
+import json
+
 
 class Base:
     """The base class for all classes in this project."""
@@ -16,3 +18,10 @@ class Base:
         else:
             self.__class__.__nb_objects += 1
             self.id = self.__class__.__nb_objects
+
+    @staticmethod
+    def to_json_string(list_dictionaries):
+        """Return the JSON representation of a list of dicts."""
+        if not list_dictionaries:
+            return "[]"
+        return json.dumps(list_dictionaries)
