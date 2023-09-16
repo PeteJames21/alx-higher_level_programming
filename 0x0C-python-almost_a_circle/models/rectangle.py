@@ -88,3 +88,26 @@ class Rectangle(Base):
             for _ in range(self.width):
                 print("#", end="")
             print()
+
+    def __str__(self):
+        """Return the informal string representation of self."""
+        return f"[Rectangle] ({self.id}) {self.x}/{self.y} -"\
+               f" {self.width}/{self.height}"
+
+    def update(self, *args, **kwargs):
+        """
+        Update the attributes of self with the values in args.
+
+        *args are parsed in this order: id, width, height, x, y.
+        The number of *args should be 1 <= args <= len(args). Unknown
+        attributes in *kwargs are ignored.
+        """
+        attrs = ["id", "width", "height", "x", "y"]
+        namespace = {"__builtins__": {}, "self": self}
+        if args:
+            for attr, value in zip(attrs, args):
+                exec(f"self.{attr} = {value}", namespace, {})
+        elif kwargs:
+            for attr, value in kwargs.items():
+                if attr in attrs:
+                    exec(f"self.{attr} = {value}", namespace, {})
