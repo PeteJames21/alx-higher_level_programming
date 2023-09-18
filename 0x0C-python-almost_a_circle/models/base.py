@@ -5,6 +5,7 @@ Defines a base class for all classes in this project.
 
 import json
 import os
+import csv
 
 
 class Base:
@@ -77,3 +78,42 @@ class Base:
             list_objects.append(cls.create(**d))
 
         return list_objects
+
+    @classmethod
+    def save_to_file_csv(cls, list_objs):
+        """
+        Save the serialized instances of this class to a CSV file.
+
+        :param list_objs: a list of objects that inherit from Base. They must
+        implement a `to_dictionary` method.
+        """
+        filename = f"{cls.__name__}.csv"
+        with open(filename, "w", newline="") as csvfile:
+            if list_objs is None or list_objs == []:
+                csvfile.write("[]")
+            else:
+                if cls.__name__ == "Rectangle":
+                    fields = ["id", "width", "height", "x", "y"]
+                else:
+                    fields = ["id", "size", "x", "y"]
+                writer = csv.DictWriter(csvfile, fieldnames=fields)
+                for obj in list_objs:
+                    writer.writerow(obj.to_dictionary())
+
+    @classmethod
+    def load_from_file_csv(cls):
+        """Deserialize instances of this class from a CSV file."""
+        filename = f"{cls.__name__}.csv"
+        if not os.path.exists(filename):
+            return []
+
+        with open(filename, "r", newline="") as csvfile:
+            if cls.__name__ == "Rectangle":
+                fields = ["id", "width", "height", "x", "y"]
+            else:
+                fields = ["id", "size", "x", "y"]
+            list_dicts = csv.DictReader(csvfile, fieldnames=fields)
+            list_dicts = [dict([k, int(v)] for k, v in d.items())
+                          for d in list_dicts]
+
+        return [cls.create(**d) for d in list_dicts]
