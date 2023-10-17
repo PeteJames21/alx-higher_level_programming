@@ -91,3 +91,10 @@ Write a script that lists all records of the table `second_table` of the databas
 - Results should display the score and the name (in this order)
 - Records should be listed by descending score
 - The database name will be passed as an argument to the `mysql` command
+
+## 100-move_to_utf8.sql
+Write a script that converts hbtn_0c_0 database to UTF8 (utf8mb4, collate utf8mb4_unicode_ci) in your MySQL server.
+Convert all of the following to UTF8:
+- Database hbtn_0c_0
+- Table first_table
+- Field name in first_table
