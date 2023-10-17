@@ -15,3 +15,10 @@ Write a script that deletes the database hbtn_0c_0 in your MySQL server.
 
 ## 3-list_tables.sql
 Write a script that lists all the tables in the current database in your MySQL server.
+
+## 4-first_table.sql
+Write a script that creates a table called `first_table` in the current database in your MySQL server.
+Fields:
+- `id INT`
+- `name VARCHAR(256)`
+
