@@ -33,3 +33,5 @@ Write a script that inserts a new row in the table `first_table` with the follow
 - `id` = 89
 - `name` = Best School
 
+## 8-count_89.sql
+Write a script that displays the number of records with `id` = 89 in the table `first_table`.
