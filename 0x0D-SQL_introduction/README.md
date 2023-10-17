@@ -98,3 +98,11 @@ Convert all of the following to UTF8:
 - Database hbtn_0c_0
 - Table first_table
 - Field name in first_table
+
+## 101-avg_temperatures.sql
+Import in `hbtn_0c_0 database` [this](https://s3.amazonaws.com/intranet-projects-files/holbertonschool-higher-level_programming+/272/temperatures.sql) table dump:
+- Write a script that displays the average temperature (Fahrenheit) by city ordered by temperature (descending).
+
+## 103-max_state.sql
+Import in hbtn_0c_0 database the same table dump as in Temperatures #0).
+- Write a script that displays the max temperature of each state (ordered by State name).
