@@ -24,3 +24,6 @@ Fields:
 
 ## 5-full_table.sql
 Write a script that prints the full description of the table "first_table".
+
+## 6-list_values.sql
+Write a script that lists all rows of the table `first_table` from the database
