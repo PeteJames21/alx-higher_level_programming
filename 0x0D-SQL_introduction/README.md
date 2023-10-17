@@ -27,3 +27,9 @@ Write a script that prints the full description of the table "first_table".
 
 ## 6-list_values.sql
 Write a script that lists all rows of the table `first_table` from the database
+
+## 7-insert_value.sql
+Write a script that inserts a new row in the table `first_table` with the following values:
+- `id` = 89
+- `name` = Best School
+
