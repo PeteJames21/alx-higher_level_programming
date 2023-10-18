@@ -8,3 +8,6 @@ Create a MySQL user with all privileges.
 
 ## 2-create_read_user.sql
 Create a user with only SELECT privileges on a particular database
+
+## 3-force_name.sql
+Create a table called force_name in the current database
