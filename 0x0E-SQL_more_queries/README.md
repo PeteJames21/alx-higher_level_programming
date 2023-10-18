@@ -17,3 +17,6 @@ Create a table called `id_not_null` in the current database with a field contain
 
 ## 5-unique_id.sql
 Create a table in which all rows have a unique id.
+
+## 6-states.sql
+Create a table with an auto-generated primary key.
