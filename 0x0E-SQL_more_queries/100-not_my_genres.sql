@@ -10,4 +10,5 @@ FROM tv_genres
         WHERE tv_shows.title <> "Dexter"
     ) AS t
         ON t.genre_id = tv_genres.id
+ORDER BY tv_genres.name
 ;
