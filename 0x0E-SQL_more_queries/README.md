@@ -14,3 +14,6 @@ Create a table called force_name in the current database
 
 ## 4-never_empty.sql
 Create a table called `id_not_null` in the current database with a field containing an explicit default value.
+
+## 5-unique_id.sql
+Create a table in which all rows have a unique id.
