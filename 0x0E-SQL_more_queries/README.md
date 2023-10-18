@@ -71,3 +71,11 @@ Write a script that lists all genres from hbtn_0d_tvshows and displays the numbe
 - Results must be sorted in descending order by the number of shows linked
 - You can use only one SELECT statement
 - The database name will be passed as an argument of the mysql command
+
+## 14-my_genres.sql
+Write a script that uses the `hbtn_0d_tvshows` database to lists all genres of the show Dexter.
+- The `tv_shows` table contains only one record where title = Dexter (but the id can be different)
+- Each record should display: tv_genres.name
+- Results must be sorted in ascending order by the genre name
+- You can use only one SELECT statement
+- The database name will be passed as an argument of the `mysql` command
