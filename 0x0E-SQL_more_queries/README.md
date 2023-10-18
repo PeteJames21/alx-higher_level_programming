@@ -20,3 +20,6 @@ Create a table in which all rows have a unique id.
 
 ## 6-states.sql
 Create a table with an auto-generated primary key.
+
+## 7-cities.sql
+Create a table with a foreign key.
