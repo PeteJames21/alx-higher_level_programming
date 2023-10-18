@@ -8,4 +8,4 @@ FROM tv_genres
     INNER join tv_shows
     ON tv_show_genres.show_id = tv_shows.id
 WHERE tv_genres.name = "Comedy"
-ORDER BY tv_shows.title ASC;
+ORDER BY tv_shows.title;
