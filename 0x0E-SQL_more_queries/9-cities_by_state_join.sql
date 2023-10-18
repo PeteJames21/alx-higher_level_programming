@@ -1,7 +1,7 @@
--- List all cities in the database
+-- List all cities in the database.
 
-SELECT cities.id, cities.name, states.name
-FROM cities
-    INNER JOIN states
-    ON cities.id = states.id
-ORDER BY cities.id ASC;
+SELECT c.id, c.name, s.name
+  FROM cities AS c
+       INNER JOIN states AS s
+       ON c.state_id = s.id
+ ORDER BY c.id;
