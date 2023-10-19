@@ -119,3 +119,10 @@ Write a script that lists all shows from `hbtn_0d_tvshows_rate` by their rating.
 - Results must be sorted in descending order by the rating
 - You can use only one SELECT statement
 - The database name will be passed as an argument of the `mysql` command
+
+## 103-rating_genres.sql
+Write a script that lists all genres in the database `hbtn_0d_tvshows_rate` by their rating.
+- Each record should display: tv_genres.name - rating sum
+- Results must be sorted in descending order by their rating
+- You can use only one SELECT statement
+- The database name will be passed as an argument of the mysql command
