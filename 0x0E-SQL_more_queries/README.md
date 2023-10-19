@@ -103,3 +103,11 @@ Write a script that uses the `hbtn_0d_tvshows` database to list all genres not l
 - Results must be sorted in ascending order by the genre name
 - You can use a maximum of two SELECT statement
 - The database name will be passed as an argument of the `mysql` command
+
+## 101-not_a_comedy.sql
+Write a script that lists all shows without the genre Comedy in the database `hbtn_0d_tvshows`.
+- The tv_genres table contains only one record where name = Comedy (but the id can be different)
+- Each record should display: tv_shows.title
+- Results must be sorted in ascending order by the show title
+- You can use a maximum of two SELECT statement
+- The database name will be passed as an argument of the mysql command
