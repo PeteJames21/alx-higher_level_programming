@@ -6,3 +6,9 @@ Create a constant variable and print its value.
 
 ## 1-multi_languages.js
 Print multiple lines of text.
+
+## 2-arguments.js
+Write a script that prints a message depending of the number of arguments passed:
+- If no arguments are passed to the script, print “No argument”
+- If only one argument is passed to the script, print “Argument found”
+- Otherwise, print “Arguments found”
