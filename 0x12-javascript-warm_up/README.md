@@ -61,3 +61,8 @@ Export a function.
 
 ## 100-let_me_const.js
 Use scopes to change the value of `myVar` to 333.
+
+## 101-call_me_moby.js
+Write a function that executes x times a function.
+- The function must be visible from outside
+- Prototype: `function (x, theFunction)`
