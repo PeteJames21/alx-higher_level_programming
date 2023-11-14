@@ -71,3 +71,6 @@ Write a function that executes x times a function.
 Write a function that increments and calls a function.
 - The function must be visible from outside
 - Prototype: function (number, theFunction)
+
+## 103-object_fct.js
+Add a function to an object.
