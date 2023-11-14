@@ -42,3 +42,7 @@ Write a script that prints the addition of 2 integers
 - The first argument is the first integer
 - The second argument is the second integer
 - function prototype: `function add(a, b)`
+
+## 10-factorial.js
+Compute and print the factorial of the first commandline argument.
+- The factorial of `NaN` is 1.
