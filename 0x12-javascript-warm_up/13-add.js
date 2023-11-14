@@ -1,8 +1,5 @@
 #!/usr/bin/node
-/* Add the first two args passed to the commandline.
-* The args are expected to be ints.
-*/
-
+// Export a function
 function add (a, b) {
   console.log(a + b);
 }
