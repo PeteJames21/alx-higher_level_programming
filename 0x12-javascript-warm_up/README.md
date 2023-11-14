@@ -18,3 +18,7 @@ Write a script that prints the first argument passed to it.
 
 ## 4-concat.js
 Write a script that prints two arguments passed to it, in the following format: “<arg1> is <arg2>”
+
+## 5-to_integer.js
+Write a script that prints `My number: <first argument converted in integer>`.
+If the first argument can be converted to an integer, print “Not a number”
