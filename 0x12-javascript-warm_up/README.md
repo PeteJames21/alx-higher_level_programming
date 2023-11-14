@@ -55,3 +55,6 @@ Write a script that searches the second biggest integer in the list of arguments
 
 ## 12-object.js
 Modify the attribute of an object.
+
+## 13-add.js
+Export a function.
