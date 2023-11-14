@@ -1,6 +1,8 @@
 #!/usr/bin/node
-// Find and print the second largest commandline argument.
-// It is assumeed that all the arguments are integers
+/**
+* Find and print the second largest commandline argument.
+* It is assumed that all the arguments are integers
+*/
 
 // Get the commandline arguments
 const args = process.argv.slice(2, process.argv.length);
