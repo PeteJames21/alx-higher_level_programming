@@ -46,3 +46,9 @@ Write a script that prints the addition of 2 integers
 ## 10-factorial.js
 Compute and print the factorial of the first commandline argument.
 - The factorial of `NaN` is 1.
+
+## 11-second_biggest.js
+Write a script that searches the second biggest integer in the list of arguments.
+- Assume all arguments can be converted to an integer
+- If no argument is passed, print 0
+- If the number of arguments is 1, print 0
