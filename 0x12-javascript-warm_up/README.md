@@ -65,4 +65,9 @@ Use scopes to change the value of `myVar` to 333.
 ## 101-call_me_moby.js
 Write a function that executes x times a function.
 - The function must be visible from outside
-- Prototype: `function (x, theFunction)`
+- Prototype: `function (x, theFunction)
+
+## 102-add_me_maybe.js
+Write a function that increments and calls a function.
+- The function must be visible from outside
+- Prototype: function (number, theFunction)
