@@ -25,3 +25,8 @@ If the first argument can be converted to an integer, print “Not a number”
 
 ## 6-multi_languages_loop.js
 Use a loop to print array elements.
+
+## 7-multi_c.js
+Write a script that prints x times “C is fun”
+- Where `x` is the first argument of the script
+- If the first argument can’t be converted to an integer, print “Missing number of occurrences”

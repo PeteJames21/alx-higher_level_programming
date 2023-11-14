@@ -1,0 +1,11 @@
+#!/usr/bin/node
+// Print a string as many times as is specified by the first arg passed to the script
+
+const n = parseInt(process.argv[2]);
+if (isNaN(n)) {
+  console.log('Missing number of occurrences');
+} else {
+  for (let i = 0; i < n; i++) {
+    console.log('C is fun');
+  }
+}
