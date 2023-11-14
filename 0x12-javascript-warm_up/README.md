@@ -58,3 +58,6 @@ Modify the attribute of an object.
 
 ## 13-add.js
 Export a function.
+
+## 100-let_me_const.js
+Use scopes to change the value of `myVar` to 333.
