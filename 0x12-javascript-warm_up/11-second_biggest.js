@@ -3,7 +3,7 @@
 // It is assumeed that all the arguments are integers
 
 // Get the commandline arguments
-const args = process.argv.slice(2);
+const args = process.argv.slice(2, process.argv.length);
 if (args.length < 2) {
   console.log(0);
 } else {
