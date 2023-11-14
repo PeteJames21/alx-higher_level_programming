@@ -11,6 +11,6 @@ if (args.length < 2) {
 } else {
   // Convert the array elements to integers
   const intArgs = args.map(x => parseInt(x, 10));
-  // Sort the array and find the secona largest element
-  console.log(intArgs.sort()[intArgs.length - 2]);
+  // Sort the array and find the second largest element
+  console.log(intArgs.sort((a, b) => a - b)[intArgs.length - 2]);
 }
