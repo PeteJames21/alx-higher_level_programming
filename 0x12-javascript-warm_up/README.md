@@ -52,3 +52,6 @@ Write a script that searches the second biggest integer in the list of arguments
 - Assume all arguments can be converted to an integer
 - If no argument is passed, print 0
 - If the number of arguments is 1, print 0
+
+## 12-object.js
+Modify the attribute of an object.
