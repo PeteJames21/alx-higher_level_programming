@@ -22,3 +22,6 @@ Write a script that prints two arguments passed to it, in the following format: 
 ## 5-to_integer.js
 Write a script that prints `My number: <first argument converted in integer>`.
 If the first argument can be converted to an integer, print “Not a number”
+
+## 6-multi_languages_loop.js
+Use a loop to print array elements.
