@@ -39,3 +39,6 @@ Write a function that returns the number of occurrences of an element in an arra
 
 ## 8-esrever.js
 Write a function that reverses an array without using the builtin `.reverse()` method.
+
+## 9-logme.js
+Write a function that prints the number of arguments already printed and the new argument value.
