@@ -28,3 +28,9 @@ Agument 3-rectangle.js by:
 
 ## 5-square.js
 Write a class `Square` that defines a square and inherits from `Rectangle` of `4-rectangle.js`
+
+## 6-square.js
+Extend 5-square.js by:
+creating an instance method called charPrint(c) that prints the rectangle using the character c
+- If c is undefined, use the character X
+
