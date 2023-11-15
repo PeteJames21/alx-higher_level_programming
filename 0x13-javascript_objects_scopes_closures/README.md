@@ -25,3 +25,6 @@ Augment 2-rectangle.js by adding a method for printing the rectangle.
 Agument 3-rectangle.js by:
 - Creating an instance method called rotate() that exchanges the width and the height of the rectangle
 - Creating an instance method called double() that multiples the width and the height of the rectangle by 2
+
+## 5-square.js
+Write a class `Square` that defines a square and inherits from `Rectangle` of `4-rectangle.js`
