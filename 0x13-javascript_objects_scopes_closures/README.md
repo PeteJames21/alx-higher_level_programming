@@ -42,3 +42,6 @@ Write a function that reverses an array without using the builtin `.reverse()` m
 
 ## 9-logme.js
 Write a function that prints the number of arguments already printed and the new argument value.
+
+## 10-converter.js
+Write a function that converts a number from base 10 to another base passed as argument.
