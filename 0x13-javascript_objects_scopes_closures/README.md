@@ -52,3 +52,9 @@ Write a script that imports an array and computes a new array.
 - You must use a map.
 - A new list must be created with each value equal to the value of the initial list, multipled by the index in the list
 - Print both the initial list and the new list
+
+## 102-concat.js
+Write a script that concats 2 files.
+- The first argument is the file path of the first source file
+- The second argument is the file path of the second source file
+- The third argument is the file path of the destination
