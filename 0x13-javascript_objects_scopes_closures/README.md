@@ -34,3 +34,5 @@ Extend 5-square.js by:
 creating an instance method called charPrint(c) that prints the rectangle using the character c
 - If c is undefined, use the character X
 
+## 7-occurrences.js
+Write a function that returns the number of occurrences of an element in an array.
