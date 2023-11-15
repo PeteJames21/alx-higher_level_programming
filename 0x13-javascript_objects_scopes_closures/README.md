@@ -36,3 +36,6 @@ creating an instance method called charPrint(c) that prints the rectangle using 
 
 ## 7-occurrences.js
 Write a function that returns the number of occurrences of an element in an array.
+
+## 8-esrever.js
+Write a function that reverses an array without using the builtin `.reverse()` method.
