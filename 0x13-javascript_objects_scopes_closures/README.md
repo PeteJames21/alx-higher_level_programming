@@ -20,3 +20,8 @@ Write a class Rectangle that defines a rectangle:
 
 ## 3-rectangle.js
 Augment 2-rectangle.js by adding a method for printing the rectangle.
+
+## 4-rectangle.js
+Agument 3-rectangle.js by:
+- Creating an instance method called rotate() that exchanges the width and the height of the rectangle
+- Creating an instance method called double() that multiples the width and the height of the rectangle by 2
