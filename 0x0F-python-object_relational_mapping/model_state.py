@@ -20,4 +20,4 @@ class State(Base):
 
     def __repr__(self):
         """Return the formal string representation of self."""
-        return f"State(id={self.id}, name={state.name})"
+        return f"State(id={self.id}, name={self.name})"
