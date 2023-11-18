@@ -32,3 +32,13 @@ Write a python file that contains the class definition of a State and an instanc
    - class attribute name that represents a column of a string with maximum 128 characters and can’t be null
 - Use the module SQLAlchemy
 - The script should connect to a MySQL server running on localhost at port 3306
+
+
+## 7-model_state_fetch_all.py
+Write a script that lists all `State` objects from the database `hbtn_0e_6_usa`
+
+## 8-model_state_fetch_first.py
+Write a script that prints the first `State` object from the database `hbtn_0e_6_usa`
+
+## 9-model_state_filter_a.py
+Write a script that lists all State objects that contain the letter a from the database hbtn_0e_6_usa
