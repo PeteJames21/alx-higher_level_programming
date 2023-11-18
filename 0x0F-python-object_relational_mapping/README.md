@@ -15,4 +15,7 @@ Write a script that takes in an argument and displays all values in the states t
 - The script should take 4 arguments: `mysql username`, `mysql password`, `database name` and `state name searched`
 
 ## 3-my_safe_filter_states.py
-Re-write `2-my_filter_states.py` in a way that prevents SQL injection attacks 
+Re-write `2-my_filter_states.py` in a way that prevents SQL injection attacks
+
+## 4-cities_by_state.py
+Write a script that lists all cities from the database `hbtn_0e_4_usa`
