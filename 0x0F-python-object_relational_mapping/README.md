@@ -49,3 +49,6 @@ Write a script that prints the `State` object with the name passed as argument f
 ## 11-model_state_insert.py
 Write a script that adds the State object “Louisiana” to the database `hbtn_0e_6_usa`
 - The script should take 3 arguments: `mysql username`, `mysql password` and `database name`
+
+## 12-model_state_update_id_2.py
+Change the name of the `State` where `id = 2` to `New Mexico`
