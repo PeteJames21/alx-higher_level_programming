@@ -1,9 +1,8 @@
 #!/usr/bin/python3
 """
-Contains a definition of the `State` model, which maps to the 'state' table.
+Contains a definition of the `State` model, which maps to the 'states' table.
 """
 
-from sqlalchemy import create_engine
 from sqlalchemy.ext.declarative import declarative_base
 from sqlalchemy import Column, String, Integer
 
@@ -12,7 +11,7 @@ Base = declarative_base()
 
 class State(Base):
     """Models a state"""
-    __tablename__ = "state"
+    __tablename__ = "states"
 
     # The primary key is automatically autoincremented if the column is
     #  an integer primary key.
