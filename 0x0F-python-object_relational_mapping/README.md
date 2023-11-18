@@ -19,3 +19,6 @@ Re-write `2-my_filter_states.py` in a way that prevents SQL injection attacks
 
 ## 4-cities_by_state.py
 Write a script that lists all cities from the database `hbtn_0e_4_usa`
+
+## 5-filter_cities.py
+Write a script that takes in the name of a state as an argument and lists all cities of that state, using the `database hbtn_0e_4_usa`
