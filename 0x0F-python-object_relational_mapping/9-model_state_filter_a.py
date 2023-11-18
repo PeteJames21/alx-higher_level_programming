@@ -27,3 +27,5 @@ if __name__ == "__main__":
     )
     for result in results:
         print(f"{result[0]}: {result[1]}")
+
+    session.close()

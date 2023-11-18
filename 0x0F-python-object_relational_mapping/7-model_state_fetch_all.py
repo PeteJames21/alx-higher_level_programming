@@ -23,3 +23,5 @@ if __name__ == "__main__":
     results = session.query(State.id, State.name).order_by(State.id).all()
     for result in results:
         print(f"{result[0]}: {result[1]}")
+
+    session.close()

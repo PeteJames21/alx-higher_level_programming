@@ -25,3 +25,5 @@ if __name__ == "__main__":
         print('Nothing')
     else:
         print(f"{result[0]}: {result[1]}")
+
+    session.close()
