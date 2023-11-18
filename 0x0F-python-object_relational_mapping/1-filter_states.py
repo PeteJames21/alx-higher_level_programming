@@ -22,5 +22,6 @@ if __name__ == "__main__":
     cursor.execute("SELECT * FROM states WHERE name like 'N%' ORDER BY id")
     results = cursor.fetchall()
     for result in results:
-        print(result)
+        if result[1][0] == 'N':
+            print(result)
     db.close()
