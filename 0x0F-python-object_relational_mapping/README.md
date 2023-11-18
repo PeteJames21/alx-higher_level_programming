@@ -55,3 +55,8 @@ Change the name of the `State` where `id = 2` to `New Mexico`
 
 ## 13-model_state_delete_a.py
 Write a script that deletes all `State` objects with a name containing the letter `a` from the database `hbtn_0e_6_usa`
+
+## 14-model_city_fetch_by_state.py
+Prints all `City` objects from the database `hbtn_0e_14_usa`:
+- The script should take 3 arguments: `mysql username`, `mysql password` and `database name`
+- Output format: `<stateName>: (<cityID>) <cityName>`
