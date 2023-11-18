@@ -22,3 +22,13 @@ Write a script that lists all cities from the database `hbtn_0e_4_usa`
 
 ## 5-filter_cities.py
 Write a script that takes in the name of a state as an argument and lists all cities of that state, using the `database hbtn_0e_4_usa`
+
+## model_state.py
+Write a python file that contains the class definition of a State and an instance Base = declarative_base():
+- State class:
+   - inherits from Base Tips
+   - links to the MySQL table states
+   - class attribute id that represents a column of an auto-generated, unique integer, can’t be null and is a primary key
+   - class attribute name that represents a column of a string with maximum 128 characters and can’t be null
+- Use the module SQLAlchemy
+- The script should connect to a MySQL server running on localhost at port 3306
