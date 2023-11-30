@@ -18,3 +18,7 @@ Write a Bash script that sends a DELETE request to the URL passed as the first a
 
 ## 3-methods.sh
 Write a Bash script that takes in a URL and displays all HTTP methods the server will accept
+
+## 4-header.sh
+Write a Bash script that takes in a URL as an argument, sends a GET request to the URL, and displays the body of the response
+- A header variable `X-School-User-Id` must be sent with the value `98`
