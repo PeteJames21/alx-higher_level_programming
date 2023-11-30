@@ -27,3 +27,9 @@ Write a Bash script that takes in a URL as an argument, sends a GET request to t
 Write a Bash script that takes in a URL, sends a POST request to the passed URL, and displays the body of the response
 - A variable `email` must be sent with the value `test@gmail.com`
 - A variable `subject` must be sent with the value `I will always be here for PLD`
+
+## 100-status_code.sh
+Write a Bash script that sends a request to a URL passed as an argument, and displays only the status code of the response.
+Restrictions:
+- You use any pipe, redirection, etc.
+- You are not allowed to use ; and &&
