@@ -13,3 +13,6 @@ Write a Python script that takes in a URL and an email, sends a `POST` request t
 ## 3-error_code.py
 Write a Python script that takes in a URL, sends a request to the URL and displays the body of the response (decoded in utf-8)
 - Manage `urllib.error.HTTPError` exceptions and print: `Error code:` followed by the HTTP status code
+
+## 4-hbtn_status.py
+Write a Python script that fetches https://alx-intranet.hbtn.io/status using the requests package
