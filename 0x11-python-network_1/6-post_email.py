@@ -1,6 +1,9 @@
 #!/usr/bin/python3
 import sys
 import requests
+"""
+Send a POST request
+"""
 
 
 if __name__ == "__main__":
