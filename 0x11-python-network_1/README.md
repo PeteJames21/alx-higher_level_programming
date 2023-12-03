@@ -1,5 +1,5 @@
 # 0x11. Python - Network #1
-Networking with Python
+Networking with Python.
 
 ## 0-hbtn_status.py
 Write a Python script that fetches `https://alx-intranet.hbtn.io/status` using the urllib package
@@ -26,4 +26,14 @@ Write a Python script that takes in a URL and an email address, sends a POST req
 ## 7-error_code.py
 Write a Python script that takes in a URL, sends a request to the URL and displays the body of the response.
 - If the HTTP status code is greater than or equal to 400, print: `Error code:` followed by the value of the HTTP status code
+- Use the requests package
+
+## 8-json_api.py
+Write a Python script that takes in a letter and sends a POST request to http://0.0.0.0:5000/search_user with the letter as a parameter.
+- The letter must be sent in the variable `q`
+- If no argument is given, set q=""
+- If the response body is properly JSON formatted and not empty, display the id and name like this: `[<id>] <name>`
+- Otherwise:
+  - Display Not a valid JSON if the JSON is invalid
+  - Display No result if the JSON is empty
 - Use the requests package
