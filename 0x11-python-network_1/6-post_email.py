@@ -1,9 +1,9 @@
 #!/usr/bin/python3
-import sys
-import requests
 """
 Send a POST request
 """
+import sys
+import requests
 
 
 if __name__ == "__main__":
