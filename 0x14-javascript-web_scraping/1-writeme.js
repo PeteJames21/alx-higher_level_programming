@@ -12,7 +12,7 @@ if (!filePath || !contentToWrite) {
 }
 
 fs.writeFile(filePath, contentToWrite, 'utf8', error => {
-  if (err) {
+  if (error) {
     console.error(error);
   }
 });
